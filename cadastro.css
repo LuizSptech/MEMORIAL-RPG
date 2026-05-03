@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: "D&D-Font";
+    src: url(fontes/Dalelands\ Uncial.otf);
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1D394F;
+    background-image: url(imagens/CadastroFundo.jpg);
+}
+
+/*Nav-bar*/
+
+.nav_bar {
+    display: flex;
+    height: 100px;
+    background-color: #F59402;
+    align-items: center;
+
+
+}
+
+.nav_bar .titulo {
+    display: flex;
+
+}
+
+.titulo {
+    display: flex;
+    margin-right: 1000px;
+    margin-left: 20px;
+}
+
+.nav_bar img {
+    display: flex;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.lista ul {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 15px;
+
+
+
+}
+
+.nav_bar .lista li {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+.nav_bar p {
+    font-family: "D&D-Font", serif;
+
+}
+
+
+
+/*TELA*/
+
+.imagens-fundo {
+
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    height: 100vh;
+
+    justify-content: center;
+    background-image: url('imagens/cadastrofundos.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tela-preta {
+    background-image: url(imagens/FUNDOCADASTRO.png);
+    background-repeat: 0;
+    background-size: cover;
+    
+    color: white;
+
+    width: 359;
+    height: 439px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
