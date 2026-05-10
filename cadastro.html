@@ -18,7 +18,7 @@
 
         <div class="logo-area">
 
-            <img src="imagens/rpg.png" alt="Logo RPG">
+            <img src="../Projeto-Pessoal-RPG/imagens/rpg.png" alt="">
 
             <div class="titulo">
                 <h1>ACERVO RPG</h1>
@@ -30,7 +30,7 @@
 
             <ul>
                 <li><a href="">Sobre</a></li>
-                <li><a href="">Login</a></li>
+                <li><a href="login.html">Login</a></li>
                 <li><a href="">Cadastro</a></li>
                 <li><a href="">RPG?</a></li>
                 <li><a href="">LEIA</a></li>
@@ -42,16 +42,47 @@
 
     <!-- CONTEÚDO -->
 
-    <div class="imagens-fundo">
+    <div class="imagens-fundo-cadastro">
 
         <div class="tela-preta">
 
             <h2>BEM-VINDO AO ACERVO RPG</h2>
 
+             <div class="campo">
+            <span>Nome:</span>
+            <input id="nome_input" type="text" placeholder="Seu nome" />
+          </div>
+          <div class="campo">
+            <span>E-mail:</span>
+            <input id="email_input" type="text" placeholder="meuemail@provedor.com" />
+          </div>
+         
+          <div class="campo">
+            <span>Senha:</span>
+            <input id="senha_input" type="password" placeholder="******" />
+          </div>
+          <div class="campo">
+            <span>Confirmação da Senha:</span>
+            <input id="confirmacao_senha_input" type="password" placeholder="******" />
+          </div>
+          <button class="botao" onclick="cadastrar()">Cadastrar</button>
+        </div>
+        <div id="div_aguardar" class="loading-div">
+          <img src="./assets/circle-loading.gif" id="loading-gif" />
+        </div>
+
+        <div id="div_erros_login"></div>
+        <div id="div_mensagem"></div>
+      </div>
+    </div>
+  </div>
+
         </div>
 
     </div>
 
+
+    
     <!-- FOOTER -->
 
     <footer>
