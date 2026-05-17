@@ -254,7 +254,7 @@ body {
     gap: 5px;
 }
 .botao {
-    width: 150px;
+    width: 170px;
     height: 45px;
 
     border: none;
@@ -376,4 +376,19 @@ body {
     font-family: "Metamorphous", serif;
     color: black;
     padding-bottom: 20px;
+}
+
+
+.imagens-fundo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.quiz{
+    display: block;
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
