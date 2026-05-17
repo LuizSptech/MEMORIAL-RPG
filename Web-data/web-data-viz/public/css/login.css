@@ -1,0 +1,75 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: "D&D-Font";
+    src: url(fontes/Dalelands\ Uncial.otf);
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1D394F;
+}
+
+/*Nav-bar*/
+
+.nav_bar {
+    display: flex;
+    height: 100px;
+    background-color: #F59402;
+    align-items: center;
+
+
+}
+
+.nav_bar .titulo {
+    display: flex;
+
+}
+
+.titulo {
+    display: flex;
+    margin-right: 1000px;
+    margin-left: 20px;
+}
+
+.nav_bar img {
+    display: flex;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.lista ul {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 15px;
+
+
+
+}
+
+.nav_bar .lista li {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 27px;
+
+
+}
+
+.nav_bar a {
+    font-family: "D&D-Font", serif;
+    color: black;
+
+}
