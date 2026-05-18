@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "D&D-Font";
-    src: url("./fontes/Dalelands\ Uncial.otf");
+    src: url("/Projeto-Pessoal-RPG/fontes/Dalelands\ Uncial.otf");
 }
 
 /* RESET */
@@ -400,3 +400,134 @@ body {
     
     color: white;
 }
+
+
+.body-quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: calc(100vh - 200px);
+    background-image: url(../assets/imagens/Fundo-Quiz.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.imagens-fundo-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 200px);
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+}
+
+.tela-preta-quiz{
+    background-color: #0000008c;
+    width: 60%;
+    min-height: 500px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(6px);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 30px;
+
+    text-align: center;
+
+    gap: 15px;
+
+    box-shadow:
+        0 0 20px #00000099,
+        0 0 40px #0000004d;
+}
+
+.tela-preta h1{
+    display: flex;
+    font-family: "D&D-Font", serif;;
+}
+
+/*
+:root {
+    --primary-brand-color: #ED145B;
+    --secondary-brand-color: #0762C8;
+    --success: #198754;
+    --success-dark: #095c36;
+    --success-light: #9dd3ba;
+    --warning: #ffc107;
+    --warning-dark: #705400;
+    --warning-light: #fdebb3;
+    --danger: #dc3545;
+    --danger-dark: #990c19;
+    --danger-light: #f0c1c6;
+    --new-gray: #CCCCCC;
+    --new-black: #212427;
+    --new-white: #E8E8E8;
+}
+
+
+.perguntas{
+    display: flex;
+    justify-content: center;
+
+}
+button {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.flex-colunar {
+    display: flex;
+    flex-direction: column;
+}
+
+.width-fit-content {
+    width: fit-content;
+}
+
+.border-primary {
+    border: 3px solid var(--primary-brand-color);
+}
+
+.border-secondary {
+    border: 3px solid var(--secondary-brand-color);
+}
+
+.padding-8 {
+    padding: 8px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-success-with-bg {
+    color: var(--success-dark);
+    background-color: var(--success-light);
+}
+
+.text-warning-with-bg {
+    color: var(--warning-dark);
+    background-color: var(--warning-light);
+}
+
+.text-danger-with-bg {
+    color: var(--danger-dark);
+    background-color: var(--danger-light);
+}
+
+.text-new-gray {
+    color: var(--new-gray);
+}*/
